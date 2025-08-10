@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galactic Gems NFT Collection</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Optional custom styles beyond Tailwind utilities */
+        body {
+            font-family: 'Inter', sans-serif; /* A modern sans-serif font */
+        }
+        /* Gradient text for hero title */
+        .gradient-text {
+            background-image: linear-gradient(to right, var(--tw-gradient-stops));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white font-sans antialiased">
+
+    <!-- Header -->
+    <header class="bg-gray-800 text-white py-6 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center px-6">
+            <h1 class="text-3xl font-bold text-purple-400">Galactic Gems</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#collection" class="hover:text-purple-300 transition-colors duration-300">Collection</a></li>
+                    <li><a href="#about" class="hover:text-purple-300 transition-colors duration-300">About</a></li>
+                    <li><a href="https://opensea.io/collection/galactic-gems-official" target="_blank" rel="noopener noreferrer" class="hover:text-purple-300 transition-colors duration-300">OpenSea</a></li>
+                    <li><a href="#contact" class="hover:text-purple-300 transition-colors duration-300">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-br from-gray-900 to-purple-900 py-20 px-6 overflow-hidden">
+        <div class="absolute inset-0 opacity-20">
+            <img src="https://source.unsplash.com/random/1920x1080/?galaxy,stars,nebula" alt="Background Stars" class="w-full h-full object-cover blur-sm">
+        </div>
+        <div class="container mx-auto text-center relative z-10">
+            <h2 class="text-5xl font-extrabold mb-4 gradient-text from-purple-400 to-pink-500">Unveiling the Galactic Gems Collection</h2>
+            <p class="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+                Discover a universe of unique digital artistry. Each Galactic Gem is a rare, hand-crafted NFT,
+                imbued with the cosmic energy of distant nebulae and the mystery of uncharted planets. Own a piece of the digital cosmos.
+            </p>
+            <a href="#collection" class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-8 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">Explore Collection</a>
+        </div>
+    </section>
+
+    <!-- NFT Grid Section -->
+    <section id="collection" class="py-16 px-6 bg-gray-950">
+        <div class="container mx-auto">
+            <h3 class="text-4xl font-bold text-center mb-12 text-purple-400">Our Featured Gems</h3>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+
+                <!-- NFT Card 1 -->
+                <div class="bg-gray-800 rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 border border-gray-700">
+                    <img src="https://source.unsplash.com/random/400x400/?abstract,geometric,nftart" alt="Cosmic Shard NFT" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h4 class="text-2xl font-semibold mb-2 text-purple-300">Cosmic Shard #001</h4>
+                        <p class="text-gray-400 text-sm mb-4">A fragmented piece of a dying star, capturing its last brilliant light in digital form.</p>
+                        <div class="flex justify-between items-center mb-4">
+                            <span class="text-lg font-bold text-green-400">0.75 ETH</span>
+                            <span class="text-sm text-gray-500">Last Sale: 0.68 ETH</span>
+                        </div>
+                        <a href="https://opensea.io/assets/ethereum/0x.../1" target="_blank" rel="noopener noreferrer" class="w-full block text-center bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 rounded-lg transition-colors duration-300">View on OpenSea</a>
+                    </div>
+                </div>
+
+                <!-- NFT Card 2 -->
+                <div class="bg-gray-800 rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 border border-gray-700">
+                    <img src="https://source.unsplash.com/random/400x401/?digitalart,abstract,cyberpunkart" alt="Nebula Whisper NFT" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h4 class="text-2xl font-semibold mb-2 text-purple-300">Nebula Whisper #002</h4>
+                        <p class="text-gray-400 text-sm mb-4">The silent symphony of a forming nebula, a canvas of cosmic dust and nascent stars.</p>
+                        <div class="flex justify-between items-center mb-4">
+                            <span class="text-lg font-bold text-green-400">1.2 ETH</span>
+                            <span class="text-sm text-gray-500">Last Sale: 1.05 ETH</span>
+                        </div>
+                        <a href="https://opensea.io/assets/ethereum/0x.../2" target="_blank" rel="noopener noreferrer" class="w-full block text-center bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 rounded-lg transition-colors duration-300">View on OpenSea</a>
+                    </div>
+                </div>
+
+                <!-- NFT Card 3 -->
+                <div class="bg-gray-800 rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 border border-gray-700">
+                    <img src="https://source.unsplash.com/random/400x402/?scifi,abstract,artistic" alt="Quantum Bloom NFT" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h4 class="text-2xl font-semibold mb-2 text-purple-300">Quantum Bloom #003</h4>
+                        <p class="text-gray-400 text-sm mb-4">A digital representation of quantum entanglement, blooming into an ephemeral form.</p>
+                        <div class="flex justify-between items-center mb-4">
+                            <span class="text-lg font-bold text-green-400">0.9 ETH</span>
+                            <span class="text-sm text-gray-500">Last Sale: 0.82 ETH</span>
+                        </div>
+                        <a href="https://opensea.io/assets/ethereum/0x.../3" target="_blank" rel="noopener noreferrer" class="w-full block text-center bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 rounded-lg transition-colors duration-300">View on OpenSea</a>
+                    </div>
+                </div>
+
+                <!-- NFT Card 4 -->
+                <div class="bg-gray-800 rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 border border-gray-700">
+                    <img src="https://source.unsplash.com/random/400x403/?futuristic,abstract,patternart" alt="Stellar Echo NFT" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h4 class="text-2xl font-semibold mb-2 text-purple-300">Stellar Echo #004</h4>
+                        <p class="text-gray-400 text-sm mb-4">The lingering resonance of a supernova, echoing through the fabric of spacetime.</p>
+                        <div class="flex justify-between items-center mb-4">
+                            <span class="text-lg font-bold text-green-400">0.6 ETH</span>
+                            <span class="text-sm text-gray-500">Last Sale: 0.55 ETH</span>
+                        </div>
+                        <a href="https://opensea.io/assets/ethereum/0x.../4" target="_blank" rel="noopener noreferrer" class="w-full block text-center bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 rounded-lg transition-colors duration-300">View on OpenSea</a>
+                    </div>
+                </div>
+
+                <!-- NFT Card 5 -->
+                <div class="bg-gray-800 rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 border border-gray-700">
+                    <img src="https://source.unsplash.com/random/400x404/?spaceart,abstract,colorfulart" alt="Void Blossom NFT" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h4 class="text-2xl font-semibold mb-2 text-purple-300">Void Blossom #005</h4>
+                        <p class="text-gray-400 text-sm mb-4">A rare bloom emerging from the cosmic void, a symbol of creation in emptiness.</p>
+                        <div class="flex justify-between items-center mb-4">
+                            <span class="text-lg font-bold text-green-400">1.5 ETH</span>
+                            <span class="text-sm text-gray-500">Last Sale: 1.3 ETH</span>
+                        </div>
+                        <a href="https://opensea.io/assets/ethereum/0x.../5" target="_blank" rel="noopener noreferrer" class="w-full block text-center bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 rounded-lg transition-colors duration-300">View on OpenSea</a>
+                    </div>
+                </div>
+
+                <!-- NFT Card 6 -->
+                <div class="bg-gray-800 rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 border border-gray-700">
+                    <img src="https://source.unsplash.com/random/400x405/?abstractexpressionism,digitalart" alt="Chronos Crystal NFT" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h4 class="text-2xl font-semibold mb-2 text-purple-300">Chronos Crystal #006</h4>
+                        <p class="text-gray-400 text-sm mb-4">A crystalline structure bending time, an artifact from a future yet to unfold.</p>
+                        <div class="flex justify-between items-center mb-4">
+                            <span class="text-lg font-bold text-green-400">0.8 ETH</span>
+                            <span class="text-sm text-gray-500">Last Sale: 0.7 ETH</span>
+                        </div>
+                        <a href="https://opensea.io/assets/ethereum/0x.../6" target="_blank" rel="noopener noreferrer" class="w-full block text-center bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 rounded-lg transition-colors duration-300">View on OpenSea</a>
+                    </div>
+                </div>
+
+                <!-- NFT Card 7 -->
+                <div class="bg-gray-800 rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 border border-gray-700">
+                    <img src="https://source.unsplash.com/random/400x406/?glowing,abstract,fractalart" alt="Aether Glimmer NFT" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h4 class="text-2xl font-semibold mb-2 text-purple-300">Aether Glimmer #007</h4>
+                        <p class="text-gray-400 text-sm mb-4">A shimmering glimpse into the ethereal realm, a beacon of pure digital light.</p>
+                        <div class="flex justify-between items-center mb-4">
+                            <span class="text-lg font-bold text-green-400">1.1 ETH</span>
+                            <span class="text-sm text-gray-500">Last Sale: 0.95 ETH</span>
+                        </div>
+                        <a href="https://opensea.io/assets/ethereum/0x.../7" target="_blank" rel="noopener noreferrer" class="w-full block text-center bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 rounded-lg transition-colors duration-300">View on OpenSea</a>
+                    </div>
+                </div>
+
+                <!-- NFT Card 8 -->
+                <div class="bg-gray-800 rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 border border-gray-700">
+                    <img src="https://source.unsplash.com/random/400x407/?futuristiccity,neon,abstractart" alt="Cybernetic Bloom NFT" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h4 class="text-2xl font-semibold mb-2 text-purple-300">Cybernetic Bloom #008</h4>
+                        <p class="text-gray-400 text-sm mb-4">Where technology meets nature, a digital flora thriving in a neon-lit future.</p>
+                        <div class="flex justify-between items-center mb-4">
+                            <span class="text-lg font-bold text-green-400">0.95 ETH</span>
+                            <span class="text-sm text-gray-500">Last Sale: 0.88 ETH</span>
+                        </div>
+                        <a href="https://opensea.io/assets/ethereum/0x.../8" target="_blank" rel="noopener noreferrer" class="w-full block text-center bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 rounded-lg transition-colors duration-300">View on OpenSea</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 px-6 bg-gray-800">
+        <div class="container mx-auto text-center">
+            <h3 class="text-4xl font-bold mb-8 text-purple-400">About Galactic Gems</h3>
+            <p class="text-lg text-gray-300 max-w-4xl mx-auto leading-relaxed">
+                Galactic Gems is a curated collection of 10,000 unique digital artifacts, each a testament to the boundless creativity of the digital age.
+                Our mission is to explore the intersection of art, technology, and community, providing collectors with not just an image,
+                but a key to exclusive experiences, future drops, and a vibrant community of fellow cosmic explorers.
+                Each gem is meticulously crafted, ensuring rarity and provenance on the Ethereum blockchain.
+            </p>
+            <div class="mt-10 flex flex-wrap justify-center gap-6">
+                <div class="bg-gray-700 p-6 rounded-lg shadow-md w-full sm:w-1/2 lg:w-1/4">
+                    <h4 class="text-xl font-semibold mb-2 text-purple-300">Rarity & Uniqueness</h4>
+                    <p class="text-gray-400 text-sm">Every NFT is programmatically generated with unique traits, making each piece one-of-a-kind.</p>
+                </div>
+                <div class="bg-gray-700 p-6 rounded-lg shadow-md w-full sm:w-1/2 lg:w-1/4">
+                    <h4 class="text-xl font-semibold mb-2 text-purple-300">Community Focus</h4>
+                    <p class="text-gray-400 text-sm">Join our Discord for exclusive access, voting rights, and early announcements.</p>
+                </div>
+                <div class="bg-gray-700 p-6 rounded-lg shadow-md w-full sm:w-1/2 lg:w-1/4">
+                    <h4 class="text-xl font-semibold mb-2 text-purple-300">Roadmap & Future</h4>
+                    <p class="text-gray-400 text-sm">Holders will benefit from future metaverse integrations and exclusive merchandise.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action / Join Community -->
+    <section class="py-16 px-6 bg-gradient-to-r from-purple-900 to-gray-900 text-center">
+        <div class="container mx-auto">
+            <h3 class="text-4xl font-bold mb-6 text-white">Join Our Cosmic Community</h3>
+            <p class="text-xl text-gray-200 mb-8 max-w-2xl mx-auto">
+                Don't miss out on the latest drops, community events, and discussions. Connect with us on Discord and Twitter!
+            </p>
+            <div class="flex justify-center space-x-6">
+                <a href="https://discord.gg/your-discord-invite" target="_blank" rel="noopener noreferrer" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
+                    Join Discord
+                </a>
+                <a href="https://twitter.com/your-twitter-handle" target="_blank" rel="noopener noreferrer" class="bg-sky-500 hover:bg-sky-600 text-white font-bold py-3 px-8 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
+                    Follow on Twitter
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-gray-900 text-gray-400 py-10 px-6">
+        <div class="container mx-auto text-center">
+            <div class="mb-6">
+                <h5 class="text-2xl font-bold text-purple-400 mb-2">Galactic Gems NFT</h5>
+                <p>&copy; 2023 Galactic Gems. All rights reserved.</p>
+            </div>
+            <div class="flex justify-center space-x-8 mb-6">
+                <a href="#" class="hover:text-purple-300 transition-colors duration-300">Privacy Policy</a>
+                <a href="#" class="hover:text-purple-300 transition-colors duration-300">Terms of Service</a>
+                <a href="#" class="hover:text-purple-300 transition-colors duration-300">FAQ</a>
+            </div>
+            <p class="text-sm">Created with passion for the digital frontier and blockchain innovation.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
